@@ -1,0 +1,15 @@
+ALGORITHM Simplcomm
+VAR
+ A : ARRAY_OF INTEGER[] :=[12,13,6,10]
+ B : ARRAY_OF INTEGER[] :=[13,10,16,15]
+BEGIN
+FOR i FROM 1 TO A.length STEP 1 DO
+    FOR j FROM 1 TO B. length STEP 1 DO
+           IF (A[i] = B[i]) THEN
+             sum := sum + A[i]*2
+END IF
+END FOR
+
+END FOR
+END
+
